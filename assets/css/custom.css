@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+.main-nav{
+    background-color: rgb(255 255 255 / 0%);
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 25%);
+}
+.sec-desc{
+    background-image: url("../images/header-bg.png");
+}
+.sec-bio{
+    background-image: url("../images/biography-bg.png");
+}
+.sec-work{
+    background-image: url("../images/latest-work-bg.png");
+}
+.sec-client{
+    background-image: url("../images/footer-bg.png");
+}
+.sec-contact{
+    background-image: url("../images/footer-bg.png");
+}
+.contact{
+    background-color: #ec4c76;
+    color: #fff;
+    width: 60%;
+    border-radius: 10px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background: linear-gradient( 90deg, #ec4f91, #ec4c76);
+    border-color: #ec4f91;
+}
+#font-bold{
+    font-size: 50px;
+    font-weight: 700;
+}
+.row img{
+    width: 100%;
+}
+.my-desc{
+    margin-top: 150px;
+}
+.my-bio{
+    margin-top: 150px;
+}
+.my-img-first img{
+    margin-left: 20%;
+}
+p{
+    line-height: 1.7;
+}
+.text-hightlight{
+    color: #EC4C7A;
+}
+@media (max-width: 768px){
+    .my-desc{
+        margin-top: 100px;
+    }
+    .my-bio{
+        margin-top: 100px;
+    }
+    .my-img-first{
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #font-bold{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 766px){
+    .contact{
+        width: 80%;
+        border-radius: 10px;
+    }
+    .my-img-first img{
+        display: none;
+    }
+    .my-img-second img{
+        display: none;
+    }
+    .my-desc{
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    .my-bio{
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #font-bold{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 20px;
+    }
+    h1{
+        margin-top: 20px;
+    }
+    a{
+        margin-top: 10px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+
+}
